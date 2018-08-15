@@ -21,5 +21,22 @@ public class Tugas01 {
         System.out.println("Isi Variable y : " + y);
         System.out.println("y adalah kosong : " + y.isEmpty());
         
-    }    
+        System.out.println("");
+        
+        System.out.println("Isi x sama dengan y :" + x.equals(y));
+        String z = "Operasi";
+        System.out.println("Isis variable z : " + z);
+        System.out.println("Isi x sama dengan z (Case Sensitive) :" 
+                + x.equals(z));
+        
+        String r = "Operasi";
+        System.out.println("Isis variable z : " + z);
+        System.out.println("Isi x sama dengan z (Case Sensitive) :" 
+                + x.equals(r));
+        System.out.println("Isis variabel r (Not Case Sensitive) : "
+                + x.equalsIgnoreCase(r));
+        
+        System.out.println("");
+        
+    }
 }
